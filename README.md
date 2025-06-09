@@ -1,199 +1,85 @@
 
-<p align="center">
-  <img src="https://github.com/shellder-connect/.github/blob/151c75b13fb239c1749b3a6efa64ed6d57608a5b/logo-readme.png" width="300"/>
-</p>
+# 🐚 Shellder Connect
 
-# 🐚 Shellder Connect - Repositório Central da Organização
+## 📌 Descrição do Projeto
 
-Bem-vindo(a) à organização **Shellder Connect**, criada para reunir os projetos acadêmicos de Análise e Desenvolvimento de Sistemas.
+O **Shellder Connect** é uma plataforma humanitária desenvolvida para conectar pessoas em situação de vulnerabilidade com redes de apoio em sua região. O projeto surgiu da necessidade de enfrentar a desconexão social vivida por milhares de brasileiros afetados por desastres e emergências.  
+
+Mesmo em uma sociedade solidária, **falta um elo eficiente** entre quem precisa de ajuda e quem deseja oferecer apoio. Este projeto se propõe a ser esse elo.
 
 ## 📁 Projetos por Matéria
 
-- 🔷 [`ads-java-poo`](https://github.com/sua-org/ads-java-poo) – Projeto em Java com POO
-- 🟢 [`ads-python-inteligencia`](https://github.com/sua-org/ads-python-inteligencia) – Projeto de IA com Python
-- 🔴 [`ads-csharp-desktop`](https://github.com/sua-org/ads-csharp-desktop) – Sistema em C# Desktop
-- ⚪ [`ads-web-php`](https://github.com/sua-org/ads-web-php) – Desenvolvimento Web com PHP
+## 📁 Projetos por Matéria
 
+- ☕ **Java & DevOps** – [`ads-java-projeto`](https://github.com/shellder-connect/backend-java)  
+  Projeto utilizando Java com foco em orientação a objetos e APIs REST.
 
-## 📋 Visão Geral
+- 🧪 **Quality Assurance (QA)** – [`ads-qa-projeto`](https://github.com/shellder-connect/qa)  
+  Casos de teste, plano de testes manuais e automação de testes.
 
-Shellder Connection é uma plataforma digital abrangente que une tecnologia e conhecimento local para criar redes resilientes de prevenção e resposta durante emergências e crises humanitárias. Nossa missão é transformar smartphones em ferramentas de sobrevivência, esperança e solidariedade.
+- 🟦 **.NET** – [`ads-dotnet-projeto`](https://github.com/shellder-connect/dotnet)  
+  Aplicação em C# com ASP.NET e Entity Framework.
 
-### 🎯 Objetivos Principais
+- 📱 **Desenvolvimento Mobile** – [`ads-mobile-projeto`](https://github.com/shellder-connect/mobile)  
+  Projeto mobile com foco em interfaces responsivas e integração com APIs.
 
-1. Conectar pessoas a recursos essenciais durante emergências
+- 🌐 **Internet das Coisas (IoT)** – [`ads-iot-projeto`](https://github.com/shellder-connect/iot)  
+  Projeto com sensores, automações e integração com backend.
 
-2. Facilitar a distribuição inteligente de doações através de análise preditiva
+- 🗄️ **Banco de Dados** – [`ads-bd-projeto`](https://github.com/shellder-connect/database)  
+  Modelagem relacional, consultas SQL, procedures e integração com aplicações.
 
-3. Criar redes de apoio comunitário sustentáveis e colaborativas
+  
+## 🧩 Problema Identificado
 
-4. Oferecer suporte psicológico e médico em momentos críticos
+🚨 Pessoas em situação de risco frequentemente:
 
-### 🚀 Funcionalidades Principais
+- Não sabem onde encontrar **abrigo**.
+- Não têm acesso rápido a **doações essenciais**.
+- Sentem-se isoladas, sem saber a quem recorrer.
 
-**1. 🗺️ Mapas Colaborativos Offline-First**
+Ao mesmo tempo, pessoas dispostas a ajudar **não encontram um canal prático** para oferecer apoio. O problema não é falta de solidariedade – é **falta de conexão**.
 
-Descrição: Sistema de mapeamento colaborativo que funciona mesmo sem conectividade à internet, permitindo que comunidades identifiquem e compartilhem recursos em tempo real.
 
-Características:
+## 💡 Solução Proposta
 
-1. Funcionamento offline com sincronização automática quando conectado
+Criamos uma plataforma com três pilares principais:
 
-2. Mapeamento em tempo real de áreas vulneráveis e pontos de apoio
+1. 🏠 **Localização de abrigos**  
+   Usuários encontram rapidamente abrigos disponíveis próximos à sua localização.
 
-3. Crowdsourcing comunitário para validação e atualização de informações
+2. 🎁 **Sistema de Doações Inteligente**  
+   Conecta doadores a pessoas atendidas com base em suas necessidades reais.
 
-4. Interface intuitiva para usuários de todas as idades
+3. 👩‍⚕️ **Cadastro de Profissionais Voluntários**  
+   Advogados, psicólogos e outros profissionais podem se cadastrar para oferecer apoio gratuito.
 
-**Módulos de Cadastro**
+## ✨ Diferenciais da Solução
 
-🏠 Abrigos temporários (capacidade, recursos disponíveis, contato)
+- 📊 **Dashboards interativos** com dados de impacto e métricas de ações realizadas.
+- 💬 **Sistema de postagens e comentários**, promovendo uma rede ativa de empatia e acolhimento.
+- 🧠 **Feedbacks contínuos**, permitindo o aprimoramento da experiência dos usuários.
 
-🏥 Hospitais e postos de saúde (especialidades, disponibilidade)
+## 🚀 Viabilidade Técnica
 
-📦 Pontos de doação (tipos aceitos, horários, responsáveis)
+A aplicação foi desenvolvida em **Java com Spring Boot**, utilizando banco de dados relacional e hospedagem na **Azure**. Com estrutura modular, escalável e segura, o sistema está pronto para ser expandido.
 
-🏢 Empresas parceiras (serviços oferecidos, localização)
+Recursos utilizados:
 
-🤝 Voluntários (habilidades, disponibilidade, localização)
+- ☁️ Azure Web App & Azure MSSQL
+- 🐘 Banco de Dados Relacional
+- 🧪 Testes com JUnit
+- 🐳 Docker para facilitar o deploy local e remoto
 
-### 2. 📱 Aplicativo Integrado de Emergência
+## 🌍 Impacto Esperado
 
-Descrição: Aplicação mobile que combina navegação segura, suporte emocional e atualizações críticas em tempo real.
+Mais do que um app, o **Shellder Connect** é um **movimento de transformação social**.
 
-**Funcionalidades:**
-
-1. Navegação segura com rotas alternativas em caso de bloqueios
-
-2. Alertas em tempo real sobre condições meteorológicas e emergências
-
-3. Chat de emergência com geolocalização automática
-
-4. Modo offline com informações críticas armazenadas localmente
-
-5. Botão de pânico com notificação automática para contatos de emergência
-
-**Rede de Profissionais de Saúde:**
-
-👨‍⚕️ Cadastro de profissionais (psicólogos, fisioterapeutas, médicos)
-
-💬 Atendimento remoto via chat, áudio e vídeo
-
-🏠 Atendimento presencial quando possível
-
-🆓 Serviços gratuitos durante períodos de crise
-
-⭐ Sistema de avaliação e feedback dos usuários
-
-### 3. 🧠 Inteligência Artificial Preditiva
-
-Descrição: Sistema de análise preditiva que otimiza a distribuição de recursos baseado em padrões históricos e necessidades em tempo real.
-
-**Capacidades:**
-
-1. Análise de padrões de doações recebidas vs. necessidades reportadas
-
-2. Predição de demanda por tipo de recurso e localização
-
-3. Otimização de rotas para distribuição eficiente
-
-4. Identificação de áreas com maior probabilidade de necessidade
-
-5. Alertas proativos para potenciais crises baseado em dados históricos
-
-**Algoritmos Implementados:**
-
-1. Machine Learning para previsão de demanda
-
-2. Algoritmos de otimização para distribuição logística
-
-3. Análise de sentimento em reports da comunidade
-
-4. Clustering geográfico de necessidades similares
-
-## 🛠️ Tecnologias Utilizadas
-
-**Frontend**
-
-1. React Native - Aplicativo mobile
-
-2. C# - Acesso via navegador Web
-
-3. Mapbox/OpenStreetMap - Mapas offline
-
-4. Service Workers - Funcionalidade offline
-
-**Backend**
-
-1. C# - DOTNET - API REST
-
-2. Socket.io - Comunicação em tempo real
-
-3. Oracle - Banco de dados principal
-
-4. SqlLite - Cache e sessões
-
-5. MongoDB - Dados não-estruturados e logs
-
-**Inteligência Artificial**
-
-1. TensorFlow.js - Modelos de ML no cliente
-
-2. Python/Scikit-learn - Análise preditiva no servidor
-
-**Infraestrutura**
-
-1. Docker - Containerização
-
-2. Kubernetes - Orquestração
-
-3. Firebase - Hospedagem na nuvem
-
-
-# 📊 Impacto Esperado
-
-**Métricas de Sucesso**
-
-1. Redução no tempo de resposta a emergências
-
-2. Aumento na taxa de distribuição eficiente de doações
-
-3. Crescimento da rede de voluntários e profissionais
-
-4. Melhoria no bem-estar psicológico das comunidades atendidas
-
-## Beneficiários Diretos
-
-👥 Comunidades vulneráveis em áreas de risco
-
-🏥 Profissionais de saúde que oferecem serviços gratuitos
-
-📦 Organizações doadoras que buscam distribuição eficiente
-
-🚨 Órgãos de emergência que necessitam de dados em tempo real
-
-## 🤝 Como Contribuir
-
-**Para Profissionais de Saúde**
-
-1. Cadastre-se na plataforma para oferecer serviços voluntários
-
-2. Participe de treinamentos/Consultas sobre atendimento em crises
-
-3. Compartilhe conhecimento através do nosso APP
-
-**Para Comunidades**
-
-1. Mapeie recursos locais através do aplicativo
-
-2. Reporte necessidades e atualize informações de itens que estão faltando
-
-3. Conecte-se com vizinhos e forme redes de apoio
+💙 Conectamos solidariedade à ação.  
+🛟 Promovemos acolhimento e dignidade.  
+🌐 Criamos a maior rede de apoio humanitário digital do país.
 
 ## 🧑‍🤝‍🧑 Equipe
 
 | <h3>Claudio Bispo</h3><img src="https://avatars.githubusercontent.com/u/110735259?v=4" width=180px> <h6>RM553472</h6> <a href="https://github.com/claubis"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/claudiosbispo"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://www.instagram.com/_claudiobispo/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></a>|<h3>Patricia Naomi</h3> <img src="https://avatars.githubusercontent.com/u/132932532?v=4" width=180px><h6>RM552981</h6> <a href="https://github.com/patinaomi"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> <a href="https://www.linkedin.com/in/patinaomi/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://www.instagram.com/naomipati/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></a>|
 |--|--|
-
-
-[:arrow_up: voltar para o índice :arrow_up:](#-índice)

@@ -9,8 +9,6 @@ Mesmo em uma sociedade solidária, **falta um elo eficiente** entre quem precisa
 
 ## 📁 Projetos por Matéria
 
-## 📁 Projetos por Matéria
-
 - ☕ **Java & DevOps** – [`ads-java-projeto`](https://github.com/shellder-connect/backend-java)  
   Projeto utilizando Java com foco em orientação a objetos e APIs REST.
 
